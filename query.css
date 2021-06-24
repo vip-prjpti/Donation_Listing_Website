@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* padding: 20px; */
+    box-sizing: border-box;
+}
+
+#navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+#wrap{
+    background: #203252;
+    /* background: #222222; */
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #7890aa;
+    border: none;
+    border-radius: 50px;
+    /* box-shadow: 2px 2px 40px rgba(255, 255, 255, 0.486); */
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #384050a8;
+}
+
+.wrapper{
+    background: white;
+    border-radius: 10px;
+    width: 550px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 40px rgb(32, 50, 82,.4);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+} 
+
+.wrapper .form input{
+    background: #222222;
+    color: white;
+    font-size: 15px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.wrapper .form textarea{
+    background: #222222;
+    color: white;
+    font-size: 15px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 25px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.wrapper .form .btn{
+    background: #222222;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: 1;
+    transition: 0.4s all ease;
+}
+
+.wrapper .form .btn:hover{
+    opacity:0.8;
+}
+
+.content{
+    text-align: center;
+    background:#7890aa;
+    color: white;
+    padding: 30px;
+    width: 10px 5px;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 40px rgb(67, 96, 146); */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.content p{
+    margin-bottom: 15px;
+    width: 1500px;
+}
